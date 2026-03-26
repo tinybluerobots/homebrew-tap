@@ -3,7 +3,7 @@ cask "issuebot" do
   name "issuebot"
   desc "Autonomous GitHub issue processor powered by any CLI tool"
   homepage "https://github.com/tinybluerobots/issuebot"
-  version "1.3.0"
+  version "1.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "issuebot" do
   on_macos do
     on_intel do
       url "https://github.com/tinybluerobots/issuebot/releases/download/v#{version}/issuebot_#{version}_darwin_amd64.tar.gz"
-      sha256 "bb97b9ad7241a8b5d89f442f0170b487e597e3284adde9b392959ea08fcf3b45"
+      sha256 "f0a2984532e9abc6b12a6a47ddd5e0c4ae44a709a13c4b63bc6aad88dac219c3"
     end
     on_arm do
       url "https://github.com/tinybluerobots/issuebot/releases/download/v#{version}/issuebot_#{version}_darwin_arm64.tar.gz"
-      sha256 "4970088f9f11bb8f3a166d29badeef3cf454cb370682f9786811a0c55b1807ec"
+      sha256 "248542af1bc82fa795f194900e2b4c2fba23292ada612abce9af337c2b4f5e32"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tinybluerobots/issuebot/releases/download/v#{version}/issuebot_#{version}_linux_amd64.tar.gz"
-      sha256 "5942ee9584e4c5040ff28861beb24e04d2621cc69b5609357ac6884644f3b324"
+      sha256 "a56c99239fffbde5cec8bdd7580fb92ce5e874bf32e5f067ee1f8d524bf430df"
     end
     on_arm do
       url "https://github.com/tinybluerobots/issuebot/releases/download/v#{version}/issuebot_#{version}_linux_arm64.tar.gz"
-      sha256 "f0609c6ac2966c1e66ae76264e4ed564f7213ad9827cafc855ef77c50d07a5e6"
+      sha256 "02e575019d0b6ce26a267998bb363760a985f662b9f620e60da46f704e0fd108"
     end
   end
 
